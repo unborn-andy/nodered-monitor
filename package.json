@@ -1,0 +1,29 @@
+{
+  "name": "src",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "parcel watch ./src/index.html --no-source-maps --public-url ./  --no-cache --out-dir ./dist/",
+    "build": "parcel build ./src/index.html --no-source-maps --public-url ./  --no-cache --out-dir ./dist/"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap-vue": "^2.21.2",
+    "chart.js": "^2.9.4",
+    "moment": "^2.29.1",
+    "socket.io-client": "^4.3.1",
+    "vue": "^2.6.14",
+    "vue-chartjs": "^3.5.1",
+    "vue-hot-reload-api": "^2.3.4",
+    "vue-router": "^3.5.2",
+    "vue2-datepicker": "^3.9.1"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.2.2",
+    "cssnano": "^4.1.10",
+    "sass": "^1.32.5",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
