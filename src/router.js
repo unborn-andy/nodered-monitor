@@ -82,7 +82,6 @@ const router = new VueRouter({
     },
     {
       path: "*",
-      //path: '/:catchAll(.*)',
       redirect: "/",
     },
   ],
