@@ -22,8 +22,6 @@ mounted() {
   
   //uibuilder.start();
   uibuilder.start('/monitor', '/uibuilder/vendor/socket.io')
-  // uibuilder.start('/monitor', '../uibuilder/vendor/socket.io/socket.io.js')
-  //uibuilder.start('/monitor', '../uibuilder/vendor/socket.io')
     
 }
 

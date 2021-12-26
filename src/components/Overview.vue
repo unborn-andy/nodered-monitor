@@ -1330,21 +1330,21 @@ export default {
 </script>
 
 <style scoped>
-/deep/ .container {
+:host /deep/ .container {
   padding-right: 0px !important;
 }
 
-/deep/ .card-title {
+:host /deep/ .card-title {
   font-size: smaller;
   font-weight: bold;
 }
 
-/deep/ table {
+:host /deep/ table {
   font-size: small;
   width: 3800px;
 }
 
-/deep/ .alert {
+:host /deep/ .alert {
   padding: 0.3rem 0.5rem;
   margin: 5px 5px;
   width: 280px !important;
@@ -1352,7 +1352,7 @@ export default {
   font-weight: bold;
 }
 
-/deep/ .custom-select-sm {
+:host /deep/ .custom-select-sm {
   font-weight: bold;
   width: 300px !important;
 }

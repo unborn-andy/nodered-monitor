@@ -197,7 +197,7 @@ export default {
   box-shadow: 2px 3px 10px black;
 }
 
-/deep/ .container {
+:host /deep/ .container {
   padding-right: 0px !important;
 }
 

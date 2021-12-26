@@ -84,12 +84,12 @@ export default {
 </script>
 
 <style scoped>
-/deep/ .dropdown-item.router-link-exact-active,
-/deep/ .dropdown-item:active {
+:host /deep/ .dropdown-item.router-link-exact-active,
+:host /deep/ .dropdown-item:active {
   background-color: #a8a8a8 !important;
 }
 
-/deep/ .dropdown-item:active {
+:host /deep/ .dropdown-item:active {
   background-color: #ffc107 !important;
 }
 
@@ -100,7 +100,7 @@ export default {
   margin-right: 5px !important;
 }
 
-/deep/ .modal-header {
+:host /deep/ .modal-header {
   padding: 0.2rem 1rem !important;
 }
 
