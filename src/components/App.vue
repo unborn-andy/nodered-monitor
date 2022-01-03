@@ -20,7 +20,7 @@ export default {
 
 mounted() {
   
-  //uibuilder.start();
+  //uibuilder.debug(true);
   uibuilder.start('/monitor', '/uibuilder/vendor/socket.io')
     
 }
