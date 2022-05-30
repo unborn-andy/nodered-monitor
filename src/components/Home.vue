@@ -8,27 +8,27 @@
             <b-col cols="3" class="details">
               <p>
                 <b-icon icon="signpost"></b-icon>
-                &ensp;Papaphlessa 5, Makedonitissa
+                &ensp;xxxxxx 5, xxxxxxxx
               </p>
-              <p class="mb-4">&ensp;&ensp;&ensp; Engomi, Nicosia, 2414, Cyprus</p>
+              <p class="mb-4">&ensp;&ensp;&ensp; xxxxxx, xxxxxx, xxxxx, xxxxxxx</p>
               <p>
                 <b-icon icon="telephone-forward"></b-icon>
-                &ensp;+357 96461260
+                &ensp;+xxx xxxxxxx
               </p>
               <p class="mb-4">
                 <b-icon icon="telephone-x"></b-icon>
-                &ensp;+357 22350523 (fax)
+                &ensp;+xxx xxxxxxxxxx (fax)
               </p>
               <p>
                 <b-icon icon="envelope-open"></b-icon>
                 &ensp;
-                <a href="mailto:seintelsol@gmail.com">seintelsol@gmail.com</a>
+                <a href="mailto:xxxxxxx@xxxx.com">xxxxxx@xxxxx.com</a>
               </p>
               <p class="mb-4">
                 <b-icon icon="globe"></b-icon>
 
                 &ensp;
-                <a href="http://www.seintelsol.com">www.seintelsol.com</a>
+                <a href="http://www.xxxxxxx.com">www.xxxxxxxx.com</a>
               </p>
               <p>&ensp;For more information visit website</p>
             </b-col>
