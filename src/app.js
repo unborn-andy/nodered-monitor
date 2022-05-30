@@ -3,7 +3,7 @@ import Vue from "vue";
 import App from "./components/App.vue";
 import router from "./router";
 
-import uibuilder from "./../../../node_modules/node-red-contrib-uibuilder/front-end/src/uibuilderfe.js";
+// import uibuilder from "./../../../node_modules/node-red-contrib-uibuilder/front-end/src/uibuilderfe.js";
 
 import { BootstrapVue, IconsPlugin } from 'bootstrap-vue'
 
@@ -17,6 +17,9 @@ import "bootstrap-vue/dist/bootstrap-vue.css";
 
 
 window.uibuilder = uibuilder;
+uibuilder.start('/monitor', '/uibuilder/vendor/socket.io')
+//uibuilder.debug(true);
+
 
 new Vue({
   el: "#app",
